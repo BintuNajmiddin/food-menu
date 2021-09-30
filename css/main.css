@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #252836FF;
+    font-family: 'Barlow', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+.container{
+    padding: 33px 72px 48px 50px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.input-box{
+    position:relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;;
+    border-radius: 8px;
+  
+
+}
+.choose{
+    color: #fff;
+}
+.icon-search1{
+    position: absolute;
+    margin-left: 9.5px;
+}
+#input{
+    padding: 14.5px 14px 14.5px 33.5px;
+    background-color: rgba(45, 48, 62, 1);
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+}
+.main-h{
+font-weight: 600;
+font-size: 28px;
+line-height: 39px;
+color: #FFFFFF;
+margin:0 0 4px 0;
+}
+.date{
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+color: rgba(224, 230, 233, 1);
+margin: 0 0 24px 0;
+}
+
+.link{
+color: #fff;
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+margin-left: 32px;
+position: relative;
+}
+
+.active{
+    color: #EA7C69;
+}
+.active::before{
+    content: '';
+    display: inline-block;
+    width: 37px;
+    height: 3px;
+    background-color:  #EA7C69;
+    border-radius: 15px;
+    position: absolute;
+    top: 30px;
+}
+.link:nth-child(1){
+    margin-left: 0px;
+}
+.navbar{
+    padding-bottom: 13px;
+}
+.header{
+    border-bottom: 1px solid #393C49;
+    width: 100%;
+}
+.small-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding:32px 
+}
+.menu-card{
+    height: 266px;
+    width: 214px;
+    border-radius: 16px;
+    background-color: rgba(31, 29, 43, 1);
+    margin-left: 18px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    margin-top: 100px;
+    position: relative;
+}
+.image{
+    width: 149px;
+    height: 135px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: -49px;
+    left: 33px;
+
+}
+.inp-box{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-arrow-bottom{
+    position: absolute;
+    margin: 14px 10px 14px 14px;
+}
+#dining{
+    border-radius: 8px;
+    padding: 14px;
+    height: 48px;
+    width: 171.84px;
+    appearance: none;
+    padding-left: 48px;
+}
+.foodname{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    width:144px;
+    margin: 114px auto;
+    margin-bottom: 8px;
+    height: 52px;
+    overflow: hidden;
+}
+.price{
+    margin: 0;
+}
+
+.add-button{
+    display: block;
+    width: 100%;
+    color:rgba(234, 124, 105, 1);
+    background: #50343AFF;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    height: 45px;
+    border: none;
+    position: absolute;
+    bottom: 0;
+}
+.flex-div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 26px 10px;
+    color: #Abbbc2;
+}
+.circle-span{
+    background-color: rgba(196, 196, 196, 1);
+    border-radius: 50%;
+    width: 4px;
+    height: 4px;
+    margin: 5px;
+}
+.fixed-button{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: #EA7C69;
+    position: fixed;
+    left: 1191px;
+    bottom: 25px;
+    border: none;
+    text-align: center;
+    padding-top: 25px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+.bg-section{
+    padding: 20px;
+    color: #fff;
+    z-index: 5;
+    position: absolute;
+    /* width: 814px; */
+    /* height: 834px; */
+    right: 130px;
+    top: 50px;
+    background-color: #1f1d2b;
+    border-radius: 16px 16px 0 16px;
+    display: none;
+}
+.bg-close{
+   border: none;
+   background-color: transparent;
+   color: #fff;
+}
+
+.cart-product{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.basketProducts{
+    max-height: 834px;
+    overflow: auto;
+}
+.image-fluid{
+    border-radius: 50%;
+}
+
+.name-div{
+    width: 150px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.second-price{
+    padding-top: 15px;
+}
+.close{
+    border-radius: 5px;
+    border: none;
+    padding: 10px 5px;
+
+}
